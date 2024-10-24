@@ -38,13 +38,7 @@ int main(void)
 
     while (1)
     {
-				if(flag_100ms == 1)
-				{
-						flag_100ms = 0;
-					
-//						LED0_TOGGLE();
-						
-				}
+
 				
 				if(flag_20ms == 1)
 				{
@@ -57,17 +51,13 @@ int main(void)
 										LED0_TOGGLE();
 								}
 								else
-								{
+ 								{
 										LED1_TOGGLE();
 								}
 								
 						}
 				}
 				
-				if(flag_1ms == 1)
-				{
-						flag_1ms = 0;
-					
-				}				
+		
     }
 }
